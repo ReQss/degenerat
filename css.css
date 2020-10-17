@@ -32,11 +32,9 @@
 	margin:0px;
 	position:absolute;
 	width:82%;
-	height:65%;
+	height:55%;
 	border-style: solid;
-	background-color: red;
-	
-
+	background-color: red;	
 }
 body{
 	height:100%;
