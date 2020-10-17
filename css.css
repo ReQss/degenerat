@@ -1,0 +1,82 @@
+  
+@font-face {
+		src: url(fonts/Roobert-Regular.otf);
+		font-family: Roobert;
+}
+
+#lektor {
+	position:fixed;
+	width: 70px;
+	height: 17px;
+	left: calc(50% - 211px);
+	bottom: calc(50% + 10px);
+}
+
+#chat {
+	position:fixed;
+	width: 350px;
+	height: 100%;
+	right:0%;
+	top:0%;
+}
+
+.container {
+	position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: calc(100% - 350px);
+}
+
+#text {
+	position:fixed;
+	right:353px;
+	top: -1.5%;
+}
+
+#gif {
+	position:fixed;
+	width: calc(100% - 350px);
+	height: 100%;
+	left: 0%;
+	top: 0%;
+}
+
+#peepoglad {
+	position:fixed;
+	width: 112px;
+	height: 112px;
+	left: 0%;
+	bottom: -17px;
+}
+
+#feelsokayman {
+	position:fixed;
+	width: 112px;
+	height: 112px;
+	right: 350px;
+	bottom: 0px;
+}
+
+#nymncorn {
+	position:fixed;
+	width: 112px;
+	height: 112px;
+	right: calc(105px + 350px);
+	bottom: 0px;
+}
+
+#teatime {
+	position:fixed;
+	width: 112px;
+	height: 112px;
+	left: 105px;
+	bottom: 0px;
+}
+
+#oceny {
+	position:fixed;
+	top: 0px;
+	left: 0px;
+}
