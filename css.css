@@ -39,11 +39,14 @@
 		height:100%;
 		width:60%;
 		text-align:right;
-		color:black;
+		color:white;
 		
 	
 		
 	}
+.lista:hover{
+color:brown;
+}
 .anime{
 	
 	
