@@ -5,7 +5,6 @@
 }
 
 
-
 .chat {
 	position:fixed;
 	width: 35%;
@@ -16,13 +15,21 @@
 	background-color: blue;
 }
 
+.container {
+	position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 
-#copyright {
-	position:fixed;
-	right:1%;
-	top: -1%;
+  width: calc(100% - 350px);
 }
 
+#text {
+	position:fixed;
+	right:353px;
+	top: -1.5%;
+}
 
 .stream{
 	opacity:0.2;
@@ -63,6 +70,9 @@ html,body{
 	margin:0px;
 	height:100%;
 	
+}
+.listatekst{
+	color:white;
 }
 
 
