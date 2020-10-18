@@ -35,14 +35,14 @@
 		
 	}
 	.lista{
-		float:right;
+	
 		height:130%;
 		width:13%;
-		text-align:right;
+		
 		color:white;
 		background-image: url('shuichi.png');
 		background-size: 220%;
-		transform: rotate(0deg);
+		transform: rotate(-20deg);
 		z-index:2;
 	
 		
