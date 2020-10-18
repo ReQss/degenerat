@@ -5,15 +5,16 @@
 }
 
 
+
 .chat {
 	position:fixed;
-	width: 30%;
+	width: 35%;
 	height: 100%;
-	right:-0%;
+	right:-5%;
 	top:0%;
+	
 	background-color: blue;
 }
-
 
 
 #copyright {
@@ -22,20 +23,38 @@
 	top: -1%;
 }
 
+
 .stream{
-	
-	height:22%;
+	opacity:0.2;
+	height:25%;
 	width:70%;
-	float:left;
+	z-index: 2;
 	
+	position:fixed;
+	}
+	.stream:hover{
+		opacity:1;
+		
+		
+	}
+	.lista{
+		float:right;
+		height:100%;
+		width:60%;
+		text-align:right;
+		color:white;
+		
+	
+		
 	}
 .anime{
 	
-	
-	height:78%;
+	background-color: red;
+	height:100%;
 	width:70%;
 	float:left;
-	
+	position:fixed;
+	z-index: 1;
 
 }
 html,body{
