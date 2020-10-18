@@ -38,7 +38,7 @@
 	
 		height:130%;
 		width:13%;
-		
+		float:right;
 		color:white;
 		background-image: url('shuichi.png');
 		background-size: 220%;
