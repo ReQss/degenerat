@@ -117,8 +117,8 @@ html,body{
  .przypinka{
 	    width:10%;
 	  position:absolute;
-	  right:43%;
-	 top:20%;
+	  right:45%;
+	 top:18%;
 	  z-index:3;
 	 animation: glow3 1s ease-in-out infinite alternate;
   }
