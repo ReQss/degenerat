@@ -42,7 +42,7 @@
 		color:white;
 		background-image: url('shuichi.png');
 		background-size: 220%;
-		transform: rotate(-20deg);
+		transform: rotate(0deg);
 		z-index:2;
 	
 		
