@@ -15,15 +15,6 @@
 	background-color: blue;
 }
 
-.container {
-	position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-
-  width: calc(100% - 350px);
-}
 
 #text {
 	position:fixed;
@@ -48,7 +39,7 @@
 		height:100%;
 		width:60%;
 		text-align:right;
-		color:white;
+		color:black;
 		
 	
 		
