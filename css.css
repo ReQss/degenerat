@@ -44,8 +44,9 @@
 	
 		
 	}
-.lista:hover{
-color:brown;
+@keyframes lista {
+  from {background-color: white;}
+  to {background-color: yellow;}
 }
 .anime{
 	
