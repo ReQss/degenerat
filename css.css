@@ -67,8 +67,22 @@ html,body{
 	
 }
 .listatekst{
-	color:white;
+	animation: glow1 2s ease-in-out infinite alternate;
+	opacity:none;
 }
+@keyframes glow1 {
+	0%{
+		color:red;
+	}
+	33%{
+		color:green;
+	}
+	66%{
+		color:blue;
+	}
+	
+}
+
 
 .copyright{
 	position:absolute;
