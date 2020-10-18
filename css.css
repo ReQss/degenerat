@@ -35,15 +35,15 @@
 		
 	}
 	.lista{
-		text-align:center;
-		height:130%;
-		width:13%;
 		float:right;
+		height:120%;
+		width:13%;
+		text-align:right;
+		color:white;
 		background-image: url('shuichi.png');
-		background-size: 220%;
+		background-size: 180%;
 		transform: rotate(-20deg);
 		z-index:2;
-	
 		
 	}
 
