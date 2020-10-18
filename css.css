@@ -11,7 +11,7 @@
 	height: 100%;
 	right:0%;
 	top:0%;
-	
+	text-align:center;
 	background-color: blue;
 }
 
@@ -41,7 +41,7 @@
 		text-align:right;
 		color:white;
 		background-image: url('shuichi.png');
-		background-size: 160%;
+		background-size: 170%;
 		transform: rotate(-20deg);
 		z-index:2;
 	
