@@ -117,6 +117,7 @@ html,body{
  .przypinka{
 	    width:10%;
 	  position:absolute;
-	  right:50%;
+	  right:40%;
+	 top:30%;
 	  z-index:3;
   }
