@@ -44,10 +44,7 @@
 	
 		
 	}
-@keyframes lista {
-  from {background-color: white;}
-  to {background-color: yellow;}
-}
+
 .anime{
 	
 	
@@ -66,7 +63,7 @@ html,body{
 	overflow:hidden;
 	
 }
-.listatekst{
+.listatext{
 	animation: glow1 2s ease-in-out infinite alternate;
 	opacity:none;
 }
