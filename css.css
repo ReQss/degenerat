@@ -115,7 +115,8 @@ html,body{
   }
 
  .przypinka{
-	  width:10%;
-	  height:10%;
+	    width:10%;
+	  position:absolute;
 	  right:50%;
+	  z-index:3;
   }
