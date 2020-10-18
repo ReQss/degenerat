@@ -120,4 +120,5 @@ html,body{
 	  right:43%;
 	 top:20%;
 	  z-index:3;
+	 animation: glow3 1s ease-in-out infinite alternate;
   }
