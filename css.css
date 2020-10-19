@@ -22,7 +22,10 @@
 	top: -1.5%;
 }
 .opacity{
-	opacity:0.2;
+	opacity:0.1;
+}
+.opacity:hover{
+	opacity:1;
 }
 .stream{
 	
