@@ -2,11 +2,19 @@ prompt("Sprawdz odcinek zanim przystapisz do ogladania FUNgineer ");
 
 
 function przypinka(){
-	x = document.getElementById("top").style.display;
-	if (x == 'none'){
-        document.getElementById("top").style.display = 'block'
-    }
+	lista = document.getElementById("lista").style.display;
+	
+	if (lista == 'none'){
+        document.getElementById("lista").style.display = 'block'
+    	}
     else{
-        document.getElementById("top").style.display = 'none';
-    }
+        document.getElementById("lista").style.display = 'none';
+    	}
+	stream = document.getElementById("streamokno").style.display;
+	if (stream == 'none'){
+        document.getElementById("streamokno").style.display = 'block'
+    	}
+    else{
+        document.getElementById("streamokno").style.display = 'none';
+    	}
 }
