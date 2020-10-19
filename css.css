@@ -40,18 +40,22 @@
 		
 	}
 	.lista{
-		float:right;
+		position:absolute;
+		right:0%;
 		height:120%;
 		width:13%;
 		text-align:right;
 		color:white;
 		background-image: url('shuichi.png');
 		background-size: 180%;
-		transform: rotate(-20deg);
+		transform: rotate(-10deg);
 		z-index:2;
 		
 	}
-
+.listatext{
+	animation: glow1 2s ease-in-out infinite alternate;
+	opacity:none;
+}
 .anime{
 	
 	
@@ -70,10 +74,7 @@ html,body{
 	overflow:hidden;
 	
 }
-.listatext{
-	animation: glow1 2s ease-in-out infinite alternate;
-	opacity:none;
-}
+
 @keyframes glow1 {
 	0%{
 		color:red;
