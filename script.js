@@ -1,4 +1,4 @@
-prompt("Sprawdz odcinek zanim przystapisz do ogladania FUNgineer ");
+prompt("Po zakończeniu wybierania odcinka kliknij Maki Harukawe");
 
 
 function przypinka(){
