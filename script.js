@@ -1,3 +1,12 @@
 prompt("Sprawdz odcinek zanim przystapisz do ogladania FUNgineer ");
-prompt("Widnieje on w lewym gornym rogu na streamie, nie pomyl sie ");
-prompt("Lista znajduje sie w prawym rogu z napisem - Odcinki ");
+
+
+function przypinka(){
+	x = document.getElementById("top").style.display;
+	if (x == 'none'){
+        document.getElementById("top").style.display = 'block'
+    }
+    else{
+        document.getElementById("top").style.display = 'none';
+    }
+}
