@@ -21,9 +21,11 @@
 	right:353px;
 	top: -1.5%;
 }
-
+.opacity{
+	opacity:0.2;
+}
 .stream{
-	opacity:1;
+	
 	height:25%;
 	width: calc(100% - 350px);
 	z-index: 2;	
