@@ -23,7 +23,7 @@
 }
 
 .stream{
-	opacity:0.2;
+	opacity:1;
 	height:25%;
 	width: calc(100% - 350px);
 	z-index: 2;	
