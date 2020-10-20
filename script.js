@@ -19,4 +19,5 @@ function przypinka(){
     	}
 }
 streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
-odcinki = document.getElementsByClassName("listatext").innerHTML = streamtitle;
+odcinki = document.getElementsByClassName("listatext").innerHTML = "Odcin";
+document.querySelector(".h1").style.display = 'none';
