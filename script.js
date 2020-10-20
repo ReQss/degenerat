@@ -20,4 +20,4 @@ function przypinka(){
 }
 streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
 odcinki = document.getElementsByClassName("listatext").innerHTML = "Odcin";
-document.querySelector("#xd").style.display = 'none';
+document.getElementById("xd").innerHTML = "New text!";
