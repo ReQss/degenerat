@@ -1,4 +1,4 @@
-alert("Po zakończeniu wybierania odcinka kliknij Maki Harukawe");
+alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
 
 
 function przypinka(){
