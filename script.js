@@ -1,4 +1,4 @@
-#alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
+
 
 
 function przypinka(){
@@ -21,3 +21,4 @@ function przypinka(){
 streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
 odcinki = document.getElementsByClassName("listatext").innerHTML = "Odcin";
 document.getElementById("xd").innerHTML = "New text!";
+//alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
