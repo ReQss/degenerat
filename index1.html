@@ -1,12 +1,12 @@
+  
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl"> 
-
+<link rel="stylesheet" media="screen and (device-height: 600px)" />
 <head> 
 
-<meta http-equiv="Content-Type" content="text/html; charset="iso-8859-2" />
 
 
-
+	<script src="script.js"></script>
 <link rel="shortcut icon" type="image/png" href="icon.png">
 
 <title>Podrez_</title> 
@@ -18,17 +18,19 @@
 <body>
 
 <div class="stream">
-	<iframe
+	<img onclick="przypinka()" class="zoom" id="przypinka" src="maki.png"></img>
+	<iframe id="streamokno" class="opacity"
 	src="https://player.twitch.tv/?channel=podrez_&muted=true%22&parent=reqss.github.io"
     height="100%"
+	width="250px"
     frameborder="0"
     scrolling="no"
     allowfullscreen="yes">
 </iframe>
-	<div class="lista">
-<h3 class="listatext">Lista</h3>
-		     
-
+	
+	<div id="lista" class="lista">
+<h3 id="xd"class="listatext">Odcinki</h3>
+		
 <br><br>
 <button><a href="index.html">1</a>
 </button><br>
@@ -50,19 +52,14 @@
 </div>
 
 
-
-<div class="anime">.
-	<iframe 
-	src="https://ebd.cda.pl/620x368/3370495d6"
-	 
-	height="100%";
-	width="100%";
-	style="border:none;" 
-	scrolling="no" 
-	allowfullscreen 
-	name="v2" 
-	allow="encrypted-media">
-</iframe>
+<!-- 
+SCIEZKA DO WRZUCENIA ODCINKA INSTRUKCJA
+1. Skopiowac EMBED klikajac prawym na odcinek z cda.
+2. Wkleic sciezke src do <iframe zmieniajac http na https.
+3. FUNgineer 
+-->
+<div class="anime">
+<iframe src="" width="100%"  height="100%" style="border:none;" scrolling="no" allowfullscreen name="v2" allow="encrypted-media"></iframe>
 
 </div>
 
@@ -70,7 +67,7 @@
 
 
 <div class="chat">
-		 	<a href="https://www.twitch.tv/podrez_"> <img class="przypinka" src="maki.png"></img></a>
+	
 <iframe 
 	frameborder="0"
 	theme="dark"
@@ -86,11 +83,10 @@
 ></iframe>
 </div>
 
-
-
+<!--
+<a href="steamcommunity.com/id/rekuseg"> 
 <div id="copyright">
-</div>
-
+	</div></a> -->
 
 </body>
 
