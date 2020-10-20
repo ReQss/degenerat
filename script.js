@@ -18,4 +18,5 @@ function przypinka(){
         document.getElementById("streamokno").style.display = 'none';
     	}
 }
-streamtitle = document.getElementsByClassName(tw-c-text-overlay tw-font-size-5);
+streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
+odcinki = document.getElementsByClassName("listatext");
