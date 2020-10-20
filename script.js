@@ -1,4 +1,4 @@
-alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
+#alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
 
 
 function przypinka(){
