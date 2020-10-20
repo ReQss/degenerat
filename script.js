@@ -1,4 +1,4 @@
-prompt("Po zakończeniu wybierania odcinka kliknij Maki Harukawe");
+alert("Po zakończeniu wybierania odcinka kliknij Maki Harukawe");
 
 
 function przypinka(){
@@ -20,4 +20,4 @@ function przypinka(){
 }
 streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
 odcinki = document.getElementsByClassName("listatext").innerHTML = "Odcin";
-document.querySelector("xd").style.display = 'none';
+document.querySelector("#xd").style.display = 'none';
