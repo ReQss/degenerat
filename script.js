@@ -17,8 +17,7 @@ function przypinka(){
     else{
         document.getElementById("streamokno").style.display = 'none';
     	}
-}
-streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
+});
 anime = document.getElementById('animee');
-text!";
+title = document.querySelector('stream-info-card-component__subtitle');
 //alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
