@@ -120,7 +120,7 @@ html,body{
   }
 
   #przypinka{
-	  width:5%;
+	  width:8%;
 	  position:absolute;
 	  right:0%;
 	  top:0%;
@@ -137,5 +137,4 @@ html,body{
  .zoom:hover {
    transform: scale(1.3);
 	cursor:pointer;
- 
  }
