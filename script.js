@@ -1,4 +1,7 @@
-
+var lista = [
+  'https://ebd.cda.pl/620x368/367290174',
+  'Muzyka/hinkik.mp3'
+];
 
 
 function przypinka(){
@@ -27,10 +30,7 @@ var x = document.getElementsByClassName('stream-info-card__body tw-align-items-s
 y = document.getElementsByClassName('stream-info-card__body tw-align-items-start tw-flex tw-flex-column tw-pd-l-0');
   var TextInsideLi = document.getElementsByTagName('p')[1];
 //alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
-var lista = [
-  'https://www.youtube.com/watch?v=WasyO7DzMjQ',
-  'Muzyka/hinkik.mp3'
-];
+
 
 function podmiana(odcinek){
 document.getElementById("animo").src= lista[odcinek];
