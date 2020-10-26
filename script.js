@@ -9,9 +9,9 @@ document.getElementById("animo").src= lista[odcinek];
 
 
 function przypinka(){
-	lista = document.getElementById("lista").style.opacity;
+	lista1 = document.getElementById("lista").style.opacity;
 	
-	if (lista == '0'){
+	if (lista1 == '0'){
         document.getElementById("lista").style.opacity = '1';
     	}
     else{
