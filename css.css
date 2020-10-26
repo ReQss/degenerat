@@ -77,13 +77,11 @@ html,body{
 
 @keyframes glow1 {
 	0%{
-		color:red;
+		color:white;
 	}
-	33%{
-		color:green;
-	}
-	66%{
-		color:yellow;
+	
+	100%{
+		color:black;
 	}
 	
 }
