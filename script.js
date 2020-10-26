@@ -27,7 +27,7 @@ var x = document.getElementsByClassName('stream-info-card__body tw-align-items-s
 y = document.getElementsByClassName('stream-info-card__body tw-align-items-start tw-flex tw-flex-column tw-pd-l-0');
   var TextInsideLi = document.getElementsByTagName('p')[1];
 //alert("Wybierz odcinek i kliknij Maki w prawym górnym rogu");
-var lista = new init([
+var lista = new lista({
   'https://www.youtube.com/watch?v=WasyO7DzMjQ',
   'Muzyka/hinkik.mp3'
-]);
+});
