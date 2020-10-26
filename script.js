@@ -7,7 +7,7 @@ var lista = [
 function przypinka(){
 	lista = document.getElementById("lista").style.opacity;
 	
-	if (lista == 'none'){
+	if (lista == '0'){
         document.getElementById("lista").style.opacity = '1';
     	}
     else{
