@@ -31,6 +31,8 @@ var lista = [
   'https://www.youtube.com/watch?v=WasyO7DzMjQ',
   'Muzyka/hinkik.mp3'
 ];
-function podmiana(){
-alert("xd");
+var odcinek = 2;
+function podmiana(odcinek){
+document.getElementById("animo").src= lista[odcinek];
+
 }
