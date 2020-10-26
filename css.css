@@ -78,10 +78,12 @@ html,body{
 @keyframes glow1 {
 	0%{
 		color:#7B3432;
+		text-shadow:1px 1px #403d36;
 	}
 	
 	100%{
-		color:#f5e3e1;
+		color:#403d36;
+		text-shadow:1px 1px #7B3432;
 	}
 	
 }
