@@ -31,4 +31,6 @@ var lista = [
   'https://www.youtube.com/watch?v=WasyO7DzMjQ',
   'Muzyka/hinkik.mp3'
 ];
-$plik=file_get_contents($odcinki);
+function podmiana(){
+alert("xd");
+}
