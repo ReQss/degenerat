@@ -1,6 +1,6 @@
 var lista = [
   'https://ebd.cda.pl/620x368/367290174',
-  'Muzyka/hinkik.mp3'
+  'https://ebd.cda.pl/620x368/367292850'
 ];
 
 
