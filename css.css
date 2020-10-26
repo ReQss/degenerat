@@ -8,6 +8,7 @@
 
 
 .chat {
+	 cursor: url(https://i.imgur.com/2umDgc9.png), auto;
 	position:fixed;
 	width: 350px;
 	height: 100%;
@@ -30,7 +31,7 @@
 	opacity:1;
 }
 .stream{
-	
+	 cursor: url(https://i.imgur.com/2umDgc9.png), auto;
 	height:25%;
 	width: calc(100% - 350px);
 	z-index: 2;	
@@ -60,7 +61,7 @@
 }
 .anime{
 	
-	
+	 cursor: url(https://i.imgur.com/2umDgc9.png), auto;
 	height:96%;
 	width: calc(100% - 350px);
 	float:left;
