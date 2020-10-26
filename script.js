@@ -5,20 +5,20 @@ var lista = [
 
 
 function przypinka(){
-	lista = document.getElementById("lista").style.display;
+	lista = document.getElementById("lista").style.opacity;
 	
 	if (lista == 'none'){
-        document.getElementById("lista").style.display = 'block'
+        document.getElementById("lista").style.opacity = '1';
     	}
     else{
-        document.getElementById("lista").style.display = 'none';
+        document.getElementById("lista").style.opacity = '0';
     	}
-	stream = document.getElementById("streamokno").style.display;
-	if (stream == 'none'){
-        document.getElementById("streamokno").style.display = 'block'
+	stream = document.getElementById("streamokno").style.opacity;
+	if (stream == '0'){
+        document.getElementById("streamokno").style.opacity = '1'
     	}
     else{
-        document.getElementById("streamokno").style.display = 'none';
+        document.getElementById("streamokno").style.opacity = '0';
     	}
 }
 streamtitle = document.getElementsByClassName("tw-c-text-overlay tw-font-size-5");
