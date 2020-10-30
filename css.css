@@ -135,3 +135,48 @@ html,body{
    transform: scale(1.3);
 	cursor:pointer;
  }
+
+.button {
+	background-color: white;
+	border: none;
+	color: brown;
+	padding: 7px 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 18px;
+	margin: 0.5px;
+	cursor: pointer;
+	opacity:0.8;
+ animation: buttonshadow 2s ease-in-out infinite alternate;
+ box-shadow:0 0 20px #fff, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple, 0 0 80px purple;
+	
+  }
+  .button:hover{
+	background-color: black;
+  }
+  @keyframes buttonshadow{
+  0% {
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px red, 0 0 20px red, 0 0 30px red, 0 0 30px red, 0 0 40px red;
+}
+100% {
+	box-shadow: 0 0 10px #fff, 0 0 10px purple, 0 0 20px purple, 0 0 20px purple, 0 0 30px purple, 0 0 40px purple, 0 0 40px purple;}
+}
+	.png{
+	  float:right;
+	  width:84px;
+	  height:200px;
+  }
+  .listofepisodes{
+	  float:right;
+	  width:30px;
+	  height:140%;
+	  color:white;
+  }
+  .listaobraz{
+	float:right;
+	width:80px;
+	height:201px;
+	background-size: 10%;
+	background-position: right;
+	color:white;
+}
