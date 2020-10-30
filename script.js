@@ -8,7 +8,7 @@ document.getElementById("animo").src= lista[odcinek];
 
 }
 function przypinka(){
-	lista_strona = document.getElementById("lista").style.display;
+	lista_strona = document.getElementById("listofepisodes").style.display;
 	
 	if (lista_strona == 'none'){
         document.getElementById("lista").style.display = 'block'
