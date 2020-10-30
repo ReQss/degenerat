@@ -39,16 +39,17 @@
 		
 	}
 	.lista{
-		position:absolute;
-		right:0%;
-		height:120%;
-		width:13%;
-		text-align:right;
-		color:white;
-		background-image: url('shuichi.png');
-		background-size: 180%;
-		transform: rotate(-10deg);
-		z-index:2;
+			float:right;
+	height:120%;
+	width:10%;
+	text-align:right;
+	color:white;
+
+	background-size: 150px;
+	background-position: 84%;
+	transform: rotate(deg);
+	z-index:3;
+	
 		
 	}
 .listatext{
