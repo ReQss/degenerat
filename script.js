@@ -1,4 +1,6 @@
-//Miejsce dodawania i zmiany odcinków
+//Miejsce dodawania i zmiany odcinków        
+	document.getElementById("lista").style.display = 'none'
+        document.getElementById("lista").style.display = 'block'
 var lista = [
   'https://ebd.cda.pl/620x368/367290174',
   'https://ebd.cda.pl/620x368/367292850'
