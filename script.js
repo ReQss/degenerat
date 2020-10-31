@@ -24,3 +24,10 @@ function przypinka(){
         document.getElementById("streamokno").style.display = 'none';
     	}
 }
+
+function screenmax(){
+    document.getElementById('stream').style.height='100%';
+    document.getElementById('streamokno').style.width='100%';
+
+    }
+
