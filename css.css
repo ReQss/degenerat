@@ -3,8 +3,6 @@
 		src: url(fonts/Roobert-Regular.otf);
 		font-family: Roobert;
 }
-
-
 .chat {
 	position:fixed;
 	width: 350px;
@@ -14,15 +12,13 @@
 	text-align:center;
 	background-color: blue;
 }
-
-
 #text {
 	position:fixed;
 	right:353px;
 	top: -1.5%;
 }
 .opacity{
-	opacity:0.1;
+	opacity:1;
 }
 .opacity:hover{
 	opacity:1;
@@ -30,7 +26,7 @@
 .stream{
 	height:25%;
 	width: calc(100% - 350px);
-	z-index: 2;	
+	z-index: 1;	
 	position:fixed;
 	}
 	.stream:hover{
@@ -167,7 +163,7 @@ html,body{
 	.png{
 	  float:right;
 	  width:84px;
-	  height:195px;
+	  height:194px;
   }
   .listofepisodes{
 	  float:right;
@@ -178,8 +174,29 @@ html,body{
   .listaobraz{
 	float:right;
 	width:80px;
-	height:201px;
+	height:191px;
 	background-size: 10%;
 	background-position: right;
 	color:white;
+}
+.png1{
+	filter: invert(1);
+	z-index: 10;
+	float:right;
+	width:26px;
+	border-style:solid;
+	color:white;
+}
+.png1{
+	filter: invert(1);
+	z-index: 10;
+	float:right;
+	width:14px;
+	border-style:solid;
+	color:white;
+	transition: all 0.15s ease-in-out;
+}
+.png1:hover{
+	filter:invert(0);
+	transform:scale(1.2);
 }
